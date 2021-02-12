@@ -1,0 +1,5 @@
+rootProject.name = 'platform-pharmacy'
+
+
+include "module-domain"
+include "module-web-main"
