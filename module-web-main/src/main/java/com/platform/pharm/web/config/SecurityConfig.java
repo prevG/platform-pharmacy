@@ -15,7 +15,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		web.ignoring().antMatchers("/js/**", "/css/**");	
 	}
 	
-	@Override
+	@Override 
 	protected void configure(HttpSecurity http) throws Exception {
         http
 			.csrf()
