@@ -5,10 +5,16 @@ server:
 ### spring ############################################################
 spring:
     datasource:
-        driver-class-name: oracle.jdbc.driver.OracleDriver
-        url: jdbc:oracle:thin:@sunja.asuscomm.com:1521/xe
-        username: CHOROK
-        password: tower0814
+        driver-class-name: org.mariadb.jdbc.Driver
+        url: jdbc:mariadb://sunja.asuscomm.com/chorok?characterEncoding=UTF-8&serverTimezone=UTC
+        username: chorok
+        password: Tower@150510m
+        
+#    datasource:
+#        driver-class-name: oracle.jdbc.driver.OracleDriver
+#        url: jdbc:oracle:thin:@sunja.asuscomm.com:1521/xe
+#        username: CHOROK
+#        password: tower0814
 
     banner:
         location: banner_account.txt    
